@@ -1,30 +1,4 @@
-// const iconRoom = `
-// <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none"
-//     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-//   <path stroke-linecap="round" stroke-linejoin="round"
-//     d="M3 12l2-2m0 0l7-7 7 7m-9 14v-6h4v6m5-18h3a1 1 0 011 1v16a1 1 0 01-1 1h-3M4 21h3a1 1 0 001-1v-6H4v6a1 1 0 001 1z" />
-// </svg>`;
 
-// const iconNextClean = `
-// <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none"
-//     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-//   <path stroke-linecap="round" stroke-linejoin="round"
-//     d="M12 6v6l4 2m8 4.5A10.5 10.5 0 111.5 12" />
-// </svg>`;
-
-// const iconSoap = `
-// <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none"
-//     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-//   <path stroke-linecap="round" stroke-linejoin="round"
-//     d="M9 12h6m-6 4h6m-7.5 4h9a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0016.5 4.5h-9A2.25 2.25 0 005.25 6.75v11.25A2.25 2.25 0 007.5 20.25z" />
-// </svg>`;
-
-// const iconAir = `
-// <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none"
-//     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-//   <path stroke-linecap="round" stroke-linejoin="round"
-//     d="M3.75 15.75a3 3 0 106.01.51M6 9.75h12m-12-4.5h12M6 14.25h8.25" />
-// </svg>`;
 
 const iconRoom = `<img src="hotel.png" class="icon" alt="Room">`;
 const iconNextClean = `<img src="calendar.png" class="icon" alt="Next Clean">`;
@@ -135,9 +109,6 @@ function selectSpecialRoom(room) {
     submitRoom();
 }
 
-
-// ฟังก์ชันที่แสดง modal สำหรับ Special Rooms
-// ฟังก์ชันที่แสดง modal สำหรับ Special Rooms
 function showSpecialRoomOptions() {
      const specialRooms = [
     "Co Working",
@@ -268,7 +239,7 @@ if (userConfirmedOnce) {
                 <p style="margin-top: 10px;">
                     <small>
                         <em>🐾 Come meet TaoTao, the super cute cat that everyone falls in love with at first sight. 
-                       <a href="https://www.instagram.com/p/DF6tlZqPay5/?img_index=1" style="color: blue; text-decoration: underline; font-weight: bold;"> click</a>
+                       <a href="https://www.instagram.com/p/DKoBYixSmEb/" style="color: blue; text-decoration: underline; font-weight: bold;"> click</a>
                     TaoTao and you'll see why everyone's so smitten!</em>
                     </small>
                 </p>
@@ -297,9 +268,7 @@ if (userConfirmedOnce) {
             container.classList.add("shrink");
         });
 }
-// ฟังก์ชันสำหรับการ submit ห้อง
-/* The `submitRoom()` function in the provided JavaScript code is responsible for handling the
-submission of a room number input by the user. Here is a breakdown of what the function does: */
+
 function submitRoom() {
     if (isSearching) return; // ป้องกันการกดซ้ำ
 
